@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 function Project() {
   return (
-    <div className='container mx-auto pt-35'>
+    <div className='container mx-auto pt-15 md:pt-35'>
         <div className='w-[90%] mx-auto flex flex-col gap-10'>
 
-            <h1 className='font-extrabold text-[#00ADB5] text-5xl'>Selected Projects</h1>
+            <h1 className='font-extrabold text-[#00ADB5] text-3xl md:text-5xl'>Selected Projects</h1>
             <Link href="https://ttpnetwork.netlify.app" target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
                
                 <div className='md:w-[30%]'>

@@ -4,11 +4,11 @@ import Image from 'next/image'
 function About() {
   return (
     <div className='container mx-auto'>
-        <div className='w-[90%] mx-auto pt-35'>
+        <div className='w-[90%] mx-auto pt-10 md:pt-35'>
 
             <div className=' justify-between items-center'>
-                <h1 className='font-extrabold text-[#00ADB5] text-5xl'>About Me</h1>
-                <div className='flex flex-col gap-7 pt-20'>
+                <h1 className='font-extrabold text-[#00ADB5] text-3xl md:text-5xl'>About Me</h1>
+                <div className='flex flex-col gap-7 pt-8 md:pt-20'>
                     
 
                     <p className='md:text-justify'>

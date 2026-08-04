@@ -5,7 +5,7 @@ function Contact() {
     <div className='bg-[#222831] text-white mt-35 pt-15'>
         <div className='container mx-auto'>
             <div className='w-[90%] mx-auto'>
-                <h1 className='font-extrabold text-[#00ADB5] text-5xl mb-5'>Get In Touch</h1>
+                <h1 className='font-extrabold text-[#00ADB5] text-3xl md:text-5xl mb-5'>Get In Touch</h1>
                 <div className='flex flex-col md:flex-row gap-25 justify-center md:items-center items-start pt-9 mb-10'>
 
                     <div className='md:w-[50%] flex flex-col gap-5'>
@@ -32,8 +32,10 @@ function Contact() {
                             <p className='font-extrabold text-2xl text-[#00ADB5]'>Contact Me</p>
                             <a href="mailto:kasiemobijanfrancis@gmail.com">Kasiemobijancis@gmail.com</a>
                             <p>+234 8164602766</p>
-                            <button className='bg-[#00ADB5] p-5 w-full cursor-pointer font-extrabold uppercase'>Message Me</button>
-                            <button className='border-[#00ADB5] border-2 p-5 w-full font-extrabold cursor-pointer uppercase hover:bg-white hover:text-[#00ADB5]'>Get my CV</button>
+                            <div className='flex flex-col w-full gap-5'>
+                                <button className='bg-[#00ADB5] p-5 w-full cursor-pointer font-extrabold uppercase'>Message Me</button>
+                                <button className='border-[#00ADB5] border-2 p-5 w-full font-extrabold cursor-pointer uppercase hover:bg-white hover:text-[#00ADB5]'>Get my CV</button>
+                            </div>
                         </div>
 
                     </div>
