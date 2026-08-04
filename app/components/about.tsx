@@ -39,7 +39,7 @@ function About() {
                     <div className='flex flex-col gap-5 pt-2 '>
                         <div>
                             <h1 className='font-extrabold'>SBTS Groups</h1>
-                            <p className='text-[#7D8490] jakarta'>Frontend developer</p>
+                            <p className='text-[#7D8490] jakarta'>Frontend Developer</p>
                         </div>
                     
                         <div>
@@ -54,7 +54,7 @@ function About() {
 
                         <div>
                             <h1 className='font-extrabold'>Legacy Tech</h1>
-                            <p className='text-[#7D8490] jakarta'>Frontend developer</p>
+                            <p className='text-[#7D8490] jakarta'>Frontend Developer</p>
                         </div>
                     </div>
                 </div>
