@@ -6,16 +6,17 @@ function Contact() {
         <div className='container mx-auto'>
             <div className='w-[90%] mx-auto'>
                 <h1 className='font-extrabold text-[#00ADB5] text-5xl mb-5'>Get In Touch</h1>
-                <div className='flex flex-col md:flex-row gap-25 justify-center items-center pt-9 mb-10'>
-                    <div className='w-[50%] flex flex-col gap-5'>
-                        <p className='text-justify'>Thank you for taking the time to visit my developer portfolio. I'm thrilled that you are interested in learning more about my work.</p>
-                        <p className='text-justify'>I'm always looking for new opportunities to collaborate with like-minded individuals and companies. If you have a project in mind, or simply want to say hello, please don't hesitate to get in touch with me.</p>
-                        <p className='text-justify'>I'm confident that my skills and experience will be a valuable asset to any project, and I look forward to hearing from you soon.</p>
+                <div className='flex flex-col md:flex-row gap-25 justify-center md:items-center items-start pt-9 mb-10'>
+
+                    <div className='md:w-[50%] flex flex-col gap-5'>
+                        <p className='md:text-justify'>Thank you for taking the time to visit my developer portfolio. I'm thrilled that you are interested in learning more about my work.</p>
+                        <p className='md:text-justify'>I'm always looking for new opportunities to collaborate with like-minded individuals and companies. If you have a project in mind, or simply want to say hello, please don't hesitate to get in touch with me.</p>
+                        <p className='md:text-justify'>I'm confident that my skills and experience will be a valuable asset to any project, and I look forward to hearing from you soon.</p>
                     </div>
 
-                    <div className='w-[50%] flex'>
+                    <div className='md:w-[50%] flex flex-col md:flex-row gap-12 md:gap-0'>
 
-                        <div className='w-[50%] flex flex-col gap-3'>
+                        <div className='md:w-[50%] flex flex-col gap-3'>
                             <p className='font-extrabold text-2xl text-[#00ADB5]'>Follow Me</p>
 
                             <div className='flex flex-col gap-3'>
@@ -27,12 +28,12 @@ function Contact() {
                             </div>
                         </div>
 
-                        <div className='w-[50%] flex flex-col gap-3'>
+                        <div className='md:w-[50%] flex flex-col gap-3'>
                             <p className='font-extrabold text-2xl text-[#00ADB5]'>Contact Me</p>
-                            <a href="mailto:kasiemobijanfrancis@gmail.com">Kasiemobijanfrancis@gmail.com</a>
+                            <a href="mailto:kasiemobijanfrancis@gmail.com">Kasiemobijancis@gmail.com</a>
                             <p>+234 8164602766</p>
                             <button className='bg-[#00ADB5] p-5 w-full cursor-pointer font-extrabold uppercase'>Message Me</button>
-                    <button className='border-[#00ADB5] border-2 p-5 w-full font-extrabold cursor-pointer uppercase hover:bg-white hover:text-[#00ADB5]'>Get my CV</button>
+                            <button className='border-[#00ADB5] border-2 p-5 w-full font-extrabold cursor-pointer uppercase hover:bg-white hover:text-[#00ADB5]'>Get my CV</button>
                         </div>
 
                     </div>

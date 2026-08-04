@@ -11,15 +11,15 @@ function About() {
                 <div className='flex flex-col gap-7 pt-20'>
                     
 
-                    <p className='text-justify'>
+                    <p className='md:text-justify'>
                         I’m a frontend software developer who enjoys building fast, responsive, and accessible web applications. I focus on creating clean user interfaces and seamless user experiences using modern technologies such as React, Next.js, TypeScript, and Tailwind CSS.
                         </p>
 
-                        <p className='text-justify'>
+                        <p className='md:text-justify'>
                         My technical foundation includes JavaScript, TypeScript, React, Next.js, and modern frontend development practices. I enjoy solving real-world problems, writing maintainable code, and continuously learning new tools and technologies to become a better developer.
                         </p>
 
-                        <p className='text-justify'>
+                        <p className='md:text-justify'>
                         Outside of coding, you'll usually find me solving puzzles, watching movies, reading, or exploring a new programming language, framework, or technology. I enjoy learning and challenging myself, both in software development and beyond.
                         </p>
 
@@ -29,7 +29,7 @@ function About() {
             </div>
 
             <div className='flex flex-col md:flex-row justify-between gap-15 pt-20'>
-                <div className='w-[25%]'>
+                <div className='md:w-[25%]'>
                     <div className='flex gap-2 mb-5'>
                         
                         <div className='border-l-4 border-[#00ADB5]'></div>
@@ -59,7 +59,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className='w-[25%]'>
+                <div className='md:w-[25%]'>
                     <div className='flex gap-2 mb-5'>
                         
                         <div className='border-l-4 border-[#00ADB5]'></div>
@@ -72,7 +72,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className='w-[23%]'>
+                <div className='md:w-[23%]'>
                     <div className='flex gap-2 mb-5'>
                         
                         <div className='border-l-4 border-[#00ADB5]'></div>
@@ -88,7 +88,7 @@ function About() {
                     </ul>
                 </div>
 
-                <div className='w-[27%]'>
+                <div className='md:w-[27%]'>
                     <div className='flex gap-2 mb-5'>
                         
                         <div className='border-l-4 border-[#00ADB5]'></div>
