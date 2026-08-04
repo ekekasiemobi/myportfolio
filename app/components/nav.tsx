@@ -12,7 +12,7 @@ function Nav() {
     }
   return (
     <>
-        <div className='bg-[#222831] text-[#CCD6F6] fixed w-full'>
+        <div className='bg-[#222831] text-[#CCD6F6] fixed w-full shadow'>
 
             <nav className='container mx-auto '>
 

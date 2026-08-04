@@ -28,7 +28,7 @@ function About() {
             
             </div>
 
-            <div className='flex flex-col md:flex-row justify-between gap-15 pt-20'>
+            <div className='flex flex-col md:flex-row justify-between gap-15 pt-20 text-[15px] md:text-[16px]'>
                 <div className='md:w-[25%]'>
                     <div className='flex gap-2 mb-5'>
                         
@@ -95,7 +95,7 @@ function About() {
                         <h2 className='font-extrabold text-2xl'>Frameworks & Tools</h2>
                     </div>
 
-                    <ul className='flex flex-col gap-5 pt-2 '>
+                    <ul className='flex flex-col gap-3 pt-2 '>
                         <li>React</li>
                         <li>Next JS</li>
                         <li>Tailwind CSS</li>

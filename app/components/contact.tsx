@@ -2,11 +2,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='bg-[#222831] text-[#CCD6F6] mt-35 pt-15' id='contact'>
+    <div className='bg-[#222831] text-[#CCD6F6] mt-15 md:mt-35 pt-15' id='contact'>
         <div className='container mx-auto'>
             <div className='w-[90%] mx-auto'>
                 <h1 className='font-extrabold text-[#00ADB5] text-3xl md:text-5xl mb-5'>Get In Touch</h1>
-                <div className='flex flex-col md:flex-row gap-25 justify-center md:items-center pt-9 mb-10'>
+                <div className='flex flex-col md:flex-row gap-15 md:gap-25 justify-center md:items-center pt-9 mb-10'>
 
                     <div className='md:w-[50%] flex flex-col gap-5'>
                         <p className='md:text-justify jakarta'>Thank you for taking the time to visit my developer portfolio. I'm thrilled that you are interested in learning more about my work.</p>
