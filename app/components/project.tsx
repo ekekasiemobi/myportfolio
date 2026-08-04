@@ -1,69 +1,123 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Project() {
   return (
-    <div className='container mx-auto pt-15'>
-        <div className='flex w-[80%] justify-center items-center mx-auto py-15'>
-            <div className='flex flex-col gap-7 w-[50%] shadow-md px-12 py-15 bg-white h-150'>
-                <h1 className='font-semibold text-[#00ADB5]'>Frontend Software Developer</h1>
-                <p>Hello, my name is Kasiemobi Eke</p>
+    <div className='container mx-auto pt-35'>
+        <div className='w-[90%] mx-auto'>
 
-                <p className='max-w-[90%] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quisquam enim eius alias dolorum neque libero accusantium modi, aut deserunt?</p>
+            <h1 className='font-extrabold text-[#00ADB5] text-5xl mb-5'>Selected Projects</h1>
+            <Link href="https://ttpnetwork.netlify.app" target='_blank' className=' mt-20 flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+               
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website1.png" alt=""width={500} height={500} />
+                </div>
 
-                <div className='flex gap-7'>
-              
-                    <button className='bg-[#00ADB5] px-6 py-3 rounded text-white'>Hire Me</button>
-                    <button className='border-gray-400 border-2 px-6 py-3'>Download CV</button>
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>TTP Network</h1>
+                    <p className='text-justify'>TTPnetwork is a career support platform that helps graduates and undergraduates with their job search. Services include CV/resume writing, cover letter writing, LinkedIn optimization, and consultation booking.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>HTML, CSS, JavaScript, Materializecss</p>
+                </div>
+          
+            </Link>
+
+            <Link href="https://spacetourismcenter.netlify.app/" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website2.png" alt=""width={500} height={500} />
+                </div>
+
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Space Tourism Center</h1>
+                    <p className='text-justify'>A multi-page space tourism website with pages like Home, Destinations, and Contact. Experience in creating responsive layouts and interactive user interfaces.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, Tailwind CSS</p>
 
                 </div>
-            </div>
 
-            <div className='w-[50%]'>
-                <Image className='w-full h-150'  src="/me.jpeg" alt=""width={500} height={500} />
-            </div>
-        </div>
+                
+            </Link>
+            
+            <Link href="https://nextgenmovies.netlify.app/" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website3.png" alt=""width={500} height={500} />
+                </div>
 
-        <div className='flex w-[80%] justify-center items-center mx-auto py-15'>
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Next Gen Movies</h1>
+                    <p className='text-justify'>A modern movie streaming platform using API featuring a responsive design and seamless user experience. and different genres of movies all coming from the API</p>
 
-            <div className='w-[50%]'>
-                <Image className='w-full h-150'  src="/me.jpeg" alt=""width={500} height={500} />
-            </div>
-            <div className='flex flex-col gap-7 w-[50%] shadow-md px-12 py-15 bg-white h-150'>
-                <h1 className='font-semibold text-[#00ADB5]'>Frontend Software Developer</h1>
-                <p>Hello, my name is Kasiemobi Eke</p>
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, Next.js, API, Tailwind CSS</p>
+                </div>
 
-                <p className='max-w-[90%] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quisquam enim eius alias dolorum neque libero accusantium modi, aut deserunt?</p>
+                
+            </Link>
 
-                <div className='flex gap-7'>
-              
-                    <button className='bg-[#00ADB5] px-6 py-3 rounded text-white'>Hire Me</button>
-                    <button className='border-gray-400 border-2 px-6 py-3'>Download CV</button>
+            <Link href="https://recipemagazine.netlify.app" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website4.png" alt=""width={500} height={500} />
+                </div>
+
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Recipe Magazine</h1>
+                    <p className='text-justify'>A modern recipe magazine the get food recipes from an API. It tell you the prepartion time and steps to follow, ingredients, serving size and more for over 30 recipes.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, Next.js, API, Tailwind CSS, Shadcn</p>
 
                 </div>
-            </div>
 
-           
-        </div>
+                
+            </Link>
 
-        <div className='flex w-[80%] justify-center items-center mx-auto py-15'>
-            <div className='flex flex-col gap-7 w-[50%] shadow-md px-12 py-15 bg-white h-150'>
-                <h1 className='font-semibold text-[#00ADB5]'>Frontend Software Developer</h1>
-                <p>Hello, my name is Kasiemobi Eke</p>
+            <Link href="https://wineora.netlify.app" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
 
-                <p className='max-w-[90%] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quisquam enim eius alias dolorum neque libero accusantium modi, aut deserunt?</p>
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website5.png" alt=""width={500} height={500} />
+                </div>
 
-                <div className='flex gap-7'>
-              
-                    <button className='bg-[#00ADB5] px-6 py-3 rounded text-white'>Hire Me</button>
-                    <button className='border-gray-400 border-2 px-6 py-3'>Download CV</button>
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Wineora</h1>
+                    <p className='text-justify'>A modern wine e-commerce platform featuring a responsive design and seamless user experience.That fetch different types of wines from an API. All has the feature of adding new wines, editing existing ones, and deleting unwanted entries.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, API, Tailwind CSS</p>
 
                 </div>
-            </div>
 
-            <div className='w-[50%]'>
-                <Image className='w-full h-150'  src="/me.jpeg" alt=""width={500} height={500} />
-            </div>
+                
+            </Link>
+
+            <Link href="https://brewpalace.netlify.app" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website6.png" alt=""width={500} height={500} />
+                </div>
+
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Brew Palace</h1>
+                    <p className='text-justify'>A modern coffee shop website with a focus on providing a great user experience and showcasing the latest coffee trends from an API.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, React, API, Tailwind CSS</p>
+
+                </div>
+
+            </Link>
+
+            <Link href="https://shortyfyurl.netlify.app" target='_blank' className='flex justify-center items-center p-9 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+
+                <div className='w-[30%]'>
+                    <Image className='w-full h-50 object-cover shadow rounded'  src="/website7.png" alt=""width={500} height={500} />
+                </div>
+
+                <div className='flex flex-col gap-5 w-[70%]'>
+                    <h1 className='font-extrabold text-[#00ADB5]'>Shortyfy URL</h1>
+                    <p className='text-justify'>A simple URL shortening service that allows users to create shortened links for easy sharing using a REST API.</p>
+
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, API, Tailwind CSS</p>
+                </div>            
+            </Link>
+
         </div>
     </div>
   )

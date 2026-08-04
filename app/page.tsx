@@ -3,6 +3,7 @@ import Nav from "./components/nav";
 import Hero from "./components/hero";
 import About from "./components/about" 
 import Project from "./components/project";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Project />
-      <h1>Hero</h1>
+      <Contact />
     </>
   );
 }
