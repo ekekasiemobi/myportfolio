@@ -11,15 +11,15 @@ function About() {
                 <div className='flex flex-col gap-7 pt-8 md:pt-20'>
                     
 
-                    <p className='md:text-justify jakarta'>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[18px]'>
                         I’m a frontend software developer who enjoys building fast, responsive, and accessible web applications. I focus on creating clean user interfaces and seamless user experiences using modern technologies such as React, Next.js, TypeScript, and Tailwind CSS.
                         </p>
 
-                        <p className='md:text-justify jakarta'>
+                        <p className='md:text-justify jakarta text-[14px] md:text-[18px]'>
                         My technical foundation includes JavaScript, TypeScript, React, Next.js, and modern frontend development practices. I enjoy solving real-world problems, writing maintainable code, and continuously learning new tools and technologies to become a better developer.
                         </p>
 
-                        <p className='md:text-justify jakarta'>
+                        <p className='md:text-justify jakarta text-[14px] md:text-[18px]'>
                         Outside of coding, you'll usually find me solving puzzles, watching movies, reading, or exploring a new programming language, framework, or technology. I enjoy learning and challenging myself, both in software development and beyond.
                         </p>
 

@@ -13,14 +13,14 @@ function Hero() {
                     <p className='jakarta'>Hi, my name is</p>
                     <p className='font-extrabold text-4xl md:text-7xl text-[#222831]'>Kasiemobi Eke</p>
 
-                    <p className='md:text-justify jakarta'>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>
                         I build fast, responsive, and user focused web applications that combine clean design with reliable functionality. My goal is to create digital experiences that are both visually appealing and enjoyable to use.
                     </p>
 
-                    <div className='flex flex-col md:flex-row gap-7'>
+                    <div className='flex flex-col md:flex-row md:gap-7 gap-5'>
                 
-                        <button className='bg-[#00ADB5] px-6 py-3 rounded text-white w-full cursor-pointer jakarta uppercase '>Hire Me</button>
-                        <button className='border-gray-400 border-2 px-6 py-3 w-full cursor-pointer jakarta hover:bg-[#222831] hover:text-[#CCD6F6] uppercase'>Download CV</button>
+                        <a className='bg-[#00ADB5] px-6 py-3 rounded text-white w-full cursor-pointer jakarta uppercase text-center ' href='#contact'>Hire Me</a>
+                        <a href='https://docs.google.com/document/d/1q1ZaugVXC8DWeLhWuebGnGYb8f2Wy5sIUluIEofBGHw/edit?usp=sharing' target='_blank' className='border-gray-400 border-2 px-6 py-3 w-full cursor-pointer jakarta hover:bg-[#222831] hover:text-[#CCD6F6] uppercase text-center'>Download CV</a>
 
                     </div>
                 </div>

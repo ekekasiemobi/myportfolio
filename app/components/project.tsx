@@ -15,10 +15,10 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>TTP Network</h1>
-                    <p className='md:text-justify jakarta'>TTPnetwork is a career support platform that helps graduates and undergraduates with their job search. Services include CV/resume writing, cover letter writing, LinkedIn optimization, and consultation booking.</p>
+                    <h1 className='font-extrabold jakarta'>TTP Network</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>TTPnetwork is a career support platform that helps graduates and undergraduates with their job search. Services include CV/resume writing, cover letter writing, LinkedIn optimization, and consultation booking.</p>
 
-                    <p className='text-[#00ADB5] text-sm font-extrabold'>HTML, CSS, JavaScript, Materializecss</p>
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>Tools: HTML CSS JavaScript Materializecss</p>
                 </div>
           
             </Link>
@@ -30,10 +30,10 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Space Tourism Center</h1>
-                    <p className=' md:text-justify jakarta'>A multi-page space tourism website with pages like Home, Destinations, and Contact. Experience in creating responsive layouts and interactive user interfaces.</p>
+                    <h1 className='font-extrabold jakarta'>Space Tourism Center</h1>
+                    <p className=' md:text-justify jakarta text-[14px] md:text-[16px]'>A multi-page space tourism website with pages like Home, Destinations, and Contact. Experience in creating responsive layouts and interactive user interfaces.</p>
 
-                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, Tailwind CSS</p>
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript React Tailwind CSS</p>
 
                 </div>
 
@@ -46,8 +46,8 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Next Gen Movies</h1>
-                    <p className='md:text-justify jakarta'>A modern movie streaming platform using API featuring a responsive design and seamless user experience. and different genres of movies all coming from the API</p>
+                    <h1 className='font-extrabold jakarta'>Next Gen Movies</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>A modern movie streaming platform using API featuring a responsive design and seamless user experience. and different genres of movies all coming from the API</p>
 
                     <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, Next.js, API, Tailwind CSS</p>
                 </div>
@@ -61,8 +61,8 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Recipe Magazine</h1>
-                    <p className='md:text-justify jakarta'>A modern recipe magazine the get food recipes from an API. It tell you the prepartion time and steps to follow, ingredients, serving size and more for over 30 recipes.</p>
+                    <h1 className='font-extrabold jakarta'>Recipe Magazine</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>A modern recipe magazine the get food recipes from an API. It tell you the prepartion time and steps to follow, ingredients, serving size and more for over 30 recipes.</p>
 
                     <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, Next.js, API, Tailwind CSS, Shadcn</p>
 
@@ -71,21 +71,20 @@ function Project() {
                 
             </Link>
 
-            <Link href="https://wineora.netlify.app" target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
+            <Link href="https://wineora.netlify.app" target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] gap-12 shadow rounded'>
 
                 <div className='md:w-[30%]'>
                     <Image className='w-full h-50 object-cover shadow rounded'  src="/website5.png" alt=""width={500} height={500} />
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Wineora</h1>
-                    <p className='md:text-justify jakarta'>A modern wine e-commerce platform featuring a responsive design and seamless user experience.That fetch different types of wines from an API. All has the feature of adding new wines, editing existing ones, and deleting unwanted entries.</p>
+                    <h1 className='font-extrabold jakarta'>Wineora</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>A modern wine e-commerce platform featuring a responsive design and seamless user experience.That fetch different types of wines from an API. All has the feature of adding new wines, editing existing ones, and deleting unwanted entries.</p>
 
                     <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, API, Tailwind CSS</p>
 
                 </div>
 
-                
             </Link>
 
             <Link href="https://brewpalace.netlify.app" target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] border-b border-gray-300 gap-12'>
@@ -95,8 +94,8 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Brew Palace</h1>
-                    <p className='md:text-justify jakarta'>A modern coffee shop website with a focus on providing a great user experience and showcasing the latest coffee trends from an API.</p>
+                    <h1 className='font-extrabold jakarta'>Brew Palace</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>A modern coffee shop website with a focus on providing a great user experience and showcasing the latest coffee trends from an API.</p>
 
                     <p className='text-[#00ADB5] text-sm font-extrabold'>TypeScript, React, API, Tailwind CSS</p>
 
@@ -111,10 +110,10 @@ function Project() {
                 </div>
 
                 <div className='flex flex-col gap-5 md:w-[70%]'>
-                    <h1 className='font-extrabold text-[#00ADB5]'>Shortyfy URL</h1>
-                    <p className='md:text-justify jakarta'>A simple URL shortening service that allows users to create shortened links for easy sharing using a REST API.</p>
+                    <h1 className='font-extrabold jakarta'>Shortyfy URL</h1>
+                    <p className='md:text-justify jakarta text-[14px] md:text-[16px]'>A simple URL shortening service that allows users to create shortened links for easy sharing using a REST API.</p>
 
-                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript, React, API, Tailwind CSS</p>
+                    <p className='text-[#00ADB5] text-sm font-extrabold'>JavaScript | React | API | Tailwind CSS</p>
                 </div>            
             </Link>
 
