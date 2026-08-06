@@ -85,7 +85,7 @@ function Project() {
             <h1 className='font-extrabold text-[#00ADB5] text-3xl md:text-5xl'>Selected Projects</h1>
             {projects.map((project)=>{
                 return(
-                    <Link key={project.id} href="https://ttpnetwork.netlify.app" target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] shadow-sm rounded gap-12'>
+                    <Link key={project.id} href={project.link} target='_blank' className='flex flex-col md:flex-row justify-center items-center md:p-9 p-3 hover:bg-[#222831] hover:text-[#CCD6F6] shadow-sm rounded gap-12'>
                
                         <div className='md:w-[30%]'>
                             <Image className='w-full h-50 object-cover shadow rounded'  src={project.image} alt="" width={500} height={500} />

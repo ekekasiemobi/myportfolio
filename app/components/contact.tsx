@@ -30,7 +30,7 @@ function Contact() {
 
                         <div className='md:w-[50%] flex flex-col gap-3'>
                             <p className='font-extrabold text-2xl text-[#00ADB5]'>Contact Me</p>
-                            <a className='jakarta' href="mailto:kasiemobijanfrancis@gmail.com">Kasiemobijancis@gmail.com</a>
+                            <a className='jakarta' href="mailto:kasiemobijanfrancis@gmail.com">Kasiemobijanfrancis@gmail.com</a>
                             <p>+234 8164602766</p>
                          
                             <a href="mailto:kasiemobijanfrancis@gmail.com" className='bg-[#00ADB5] px-6 py-3 w-full cursor-pointer jakarta uppercase text-center'>Message Me</a>
