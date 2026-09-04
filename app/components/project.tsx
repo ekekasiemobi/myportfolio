@@ -23,12 +23,12 @@ const projects: project[] = [
   },
   {
     id: 2,
-    title: "Space Tourism Center",
+    title: "Job Feast",
     description:
-      "A multi-page space tourism website with pages like Home, Destinations, and Contact. Experience in creating responsive layouts and interactive user interfaces.",
+      "A responsive job board web application built with React, TypeScript, and Tailwind CSS. It fetches real-time remote job listings from the Remotive API, enabling users to search, filter by categories or tags, and view detailed job listings with formatted descriptions and direct application links.",
     tools: "JavaScript | React | Tailwind | CSS",
-    image: "/website2.png",
-    link: "https://spacetourismcenter.netlify.app/",
+    image: "/job.png",
+    link: "https://jobfeast.netlify.app",
   },
   {
     id: 3,
