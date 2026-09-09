@@ -57,15 +57,15 @@ const projects: project[] = [
     image: "/website5.png",
     link: "https://wineora.netlify.app",
   },
-  {
-    id: 6,
-    title: "Brew Palace",
-    description:
-      "A modern coffee shop website with a focus on providing a great user experience and showcasing the latest coffee trends from an API.",
-    tools: "TypeScript | React | API | Tailwind | CSS",
-    image: "/website6.png",
-    link: "https://brewpalace.netlify.app",
-  },
+  // {
+  //   id: 6,
+  //   title: "Brew Palace",
+  //   description:
+  //     "A modern coffee shop website with a focus on providing a great user experience and showcasing the latest coffee trends from an API.",
+  //   tools: "TypeScript | React | API | Tailwind | CSS",
+  //   image: "/website6.png",
+  //   link: "https://brewpalace.netlify.app",
+  // },
   {
     id: 7,
     title: "Shortyfy URL",
