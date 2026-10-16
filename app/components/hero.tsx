@@ -26,7 +26,7 @@ function Hero() {
                 </div>
 
                 <div className=' md:w-[50%]'>
-                    <Image className='w-full'  src="/me5.png" alt=""width={500} height={500} />
+                    <Image className='w-full mt-10'  src="/me7.png" alt=""width={500} height={500} />
                 </div>
 
             </div>
